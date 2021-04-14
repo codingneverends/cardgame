@@ -15,7 +15,6 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +34,60 @@
   to {
     transform: rotate(360deg);
   }
+}
+.auth{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.auth.google{
+  background: #1a73e8;
+}
+.auth img{
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+.auth button{
+  padding: 0px;
+  border: none;
+  background: transparent;
+}
+.SignIn{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+.topbar img{
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.topbar h4{
+  margin-left: 10px;
+  font-size: 1rem;
+  flex-grow: 1;
+  text-align: left;
+  color: #1a73e8;
+}
+.gamebox,.SignIn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://thumbs.dreamstime.com/b/mixed-poker-cards-gambling-card-38104681.jpg);
+  background-color: #000000cf;
+  background-blend-mode: color;
 }

@@ -1,0 +1,90 @@
+h2{
+    color: blueviolet;
+    padding: 10px;
+}
+.select,.room{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select span{
+    padding: 10px 40px;
+    background: #0af;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-weight: 100;
+}
+.select span.a{
+    background: transparent;
+}
+.rooms{
+    height: 60vh;
+    overflow-y: scroll;
+    max-width: 300px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.create{
+    max-width: 300px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.room{
+    width: calc(100% - 20px);
+    padding: 10px;
+    cursor: pointer;
+}
+.roomname{
+    flex-grow: 1;
+    text-align: center;
+}
+.room .num{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+.room:hover,
+.room:hover .num,
+.room:hover .roomname{
+    color: black;
+    background: white;
+    font-weight: bold;
+}
+.room:hover .num{
+    border-color: black;
+}
+.qn{
+    margin-top: 40px;
+    text-align: left;
+    font-size: 1.1rem;
+}
+input{
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0px;
+}
+input[type='radio']{
+    width: fit-content;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+.error{
+    text-align: right;
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: transparent;
+}
+.create_btn{
+    background: #0af;
+    margin-top: 8vh;
+}
+@media only screen and (min-width: 600px) {
+    .select span{
+        font-size: 2.2rem;
+    }
+}

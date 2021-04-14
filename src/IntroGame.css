@@ -1,0 +1,49 @@
+.mainbox{
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    height: 90vh;
+    overflow-y: scroll;
+    background-image: url(https://thumbs.dreamstime.com/b/mixed-poker-cards-gambling-card-38104681.jpg);
+    background-color: #000000af;
+    background-blend-mode: color;
+}
+.gname{
+    font-size: 4.5rem;
+    margin: 30px;
+    color: aqua;
+    font-weight: bold;
+}
+.desc{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+.mainbox button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: #0000009f;
+}
+.mainbox .cne{
+    margin: 10px;
+    text-align: right;
+    margin-top: 10vh;
+    font-size: 1.2rem;
+}
+.mainbox .cne a{
+    text-decoration: none;
+}
+.mainbox .cne img{
+    height: 40px;
+    width: 40px;
+    margin-right: 40px;
+}
+.mainbox .rules{
+    margin-left: 5%;
+    width: 90%;
+    max-width: 600px;
+    text-align: left;
+}
+.mainbox .rules div{
+    margin-top: 20px;
+}
