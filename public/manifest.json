@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Set ( Card Game )",
+  "name": "Set ( Card Game )- A simplified varient of Rummy",
   "icons": [
     {
       "src": "favicon.ico",
