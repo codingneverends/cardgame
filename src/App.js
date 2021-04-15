@@ -130,6 +130,10 @@ function Chat({room,user,_public}){
       // eslint-disable-next-line
   },[msgs,height,len])
   function checkmsg(e){
+    if(e.keyCode===13){
+      send();
+      return;
+    }
     const msg=e.target.value;
     setmessage(msg);
     if(msg.length!==0)
