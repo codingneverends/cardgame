@@ -129,7 +129,11 @@ export default function CreateOrJoin({database,SetRoom,user,setplayerkey}) {
         await SetRoom(_roomname);
     }
     function Toogle(){
+        setcreatedata_text("* A-Z a-z 0-9 _");
+        setcreatedata_col("#fff");
+        setcreate_room(false);
         setjoin(!join);
+
     }
     function Change_nop(e){
         const val=e.target.value;
